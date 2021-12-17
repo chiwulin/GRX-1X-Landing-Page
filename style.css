@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /*CSS Reset*/
@@ -143,7 +144,7 @@ img.RAVELBIKE{
 }
 
 h1.grad-text {
-  margin-right: var(--vtmn-spacing_2);
+  margin-right: var(--vtmn-spacing_4);
   font-family: var(--vtmn-typo_font-family--condensed);
   color: var(--vtmn-semantic-color_content-primary);
   font-weight: var(--vtmn-typo_font-weight--bold);
@@ -156,7 +157,7 @@ h1.grad-text {
   -webkit-text-fill-color: transparent;
 }
 
-h1.grad-text::after {
+h1.grad-text.currency::after {
   content: "KR";
   font-size: var(--vtmn-typo_title-4-font-size);
   line-height: var(--vtmn-typo_titile-4-line-height);
@@ -164,7 +165,7 @@ h1.grad-text::after {
 
 /*QUOTE*/
 .quote {
-  height: 60vh;
+  height: 50vh;
 }
 
 /*RWD SETTING*/
